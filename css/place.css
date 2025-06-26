@@ -1,0 +1,28 @@
+
+.head{
+    
+    width: 100%;
+    height: auto;
+}
+.head_data{
+   
+    width: 100%;
+    height: 200px;
+}
+.head_img{
+   
+    width: 100%;
+    border: 1px solid;
+    align-items: center;
+    height: 200px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.785);
+}
+.details{
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.785);
+
+}
+@media  screen and (max-width:430px){
+  table{
+      font-size:11px;
+  }  
+}

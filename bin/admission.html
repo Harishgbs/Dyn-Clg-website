@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gpt-plpt_admission</title>
+    <link rel="stylesheet" href="../css/menu_foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="../script/scriptt.js"></script>
+</head>
+<body> 
+    <header>
+            
+        <div class="clg_logo">
+
+        </div>
+        <div class="clg_name">
+            <p><b class="govt">GOVERNMENT POLYTECHNIC,</b><b class="plpt">Pillaripattu</b></p>
+        </div>
+    
+        <!-- <button</button> -->
+         
+        <menu class="menuu" >
+            <li onclick="displaymenu()" id="menu_but"><i class="fa-solid fa-bars" style="color: white;"></i></li>
+            <a id="home_btn" href="index.html"><i class="fa-solid fa-house"></i></a>
+            <ul id="sidemenu">
+                <li>
+                    <a onclick="aacad()" href="#">Academics&nbsp;<i class="fas fa-caret-down"></i></a>
+                    
+                    <div class="dropdown_acad" id="aacad" >
+                        <ul>
+                            <li>
+                                <a href="dept.html">Departments&nbsp;<i class="fas fa-caret-right"></i></a>
+                                <div class="dropdown_dept">
+                                    <ul>
+                                        <li><a href="#">DCE</a></li>
+                                        <li><a href="#">DCME</a></li>
+                                        <li><a href="#">DECE</a></li>
+                                        <li><a href="#">DME</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">Curriculam</a></li>
+                            <li><a href="#">Labs/Workshop</a></li>
+                            <li><a href="library.html">Library</a></li>
+                            <li><a href="faculty.html">faculty</a></li>
+                            <li><a href="#">Project ideas</a></li>
+
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Placements.html">Placements</a></li>
+                <li><a href="Infrastructure.html">Infrastructure</a></li>
+                <li><a href="Events.html">Events</a></li>
+                <li onclick="show()">
+                    <a href="#">Enrollment&nbsp;<i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown_acad"  id="enrol">
+                        <ul>
+                            <li><a href="admission.html">Admissions</a></li>
+                            <li><a href="fee_structure.html">fee_structure</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            
+        </menu>
+      
+    </header>
+       <center><h1>Admissions</h1></center>
+        <div class="main_content" style="display: flex; justify-content: center;">
+            <table border="2" cellspacing="0" cellpadding="10px" style="height: 100vh; width: 80%; text-align: center;">
+                <tr><th>Year</th><th>Intake strength</th><th colspan="5">Admitted strength</th></tr>
+                <tr><th>    </th><th>               </th><td>CE</td><td>CME</td><td>ECE</td><td>ME</td></tr>
+                <tr><td>2017-18</td><td>60+6EWS</td><td>38</td><td>12</td><td>42</td><td>58</td></tr>
+                <tr><td>2018-19</td><td>60+6EWS</td><td>47</td><td>22</td><td>43</td><td>69</td></tr>
+                <tr><td>2019-20</td><td>60+6EWS</td><td>35</td><td>30</td><td>42</td><td>49</td></tr>
+                <tr><td>2020-21</td><td>60+6EWS</td><td>61</td><td>59</td><td>55</td><td>47</td></tr>
+                <tr><td>2021-22</td><td>60+6EWS</td><td>23</td><td>67</td><td>58</td><td>37</td></tr>
+                <tr><td>2022-23</td><td>60+6EWS</td><td>  </td><td>  </td><td>  </td><td>  </td></tr>
+                <tr><td>2023-24</td><td>60+6EWS</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+            </table>
+        </div>
+</body>
+</html>

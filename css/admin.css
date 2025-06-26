@@ -1,0 +1,80 @@
+body{
+    border: 10px;
+}
+.admin_name{
+    font-size:40px;
+}
+.contain{
+    display: flex;
+
+}
+#leftbar{
+    width: 24%;
+    height: 100%;
+    border: 1px solid;
+    visibility: visible;
+}
+#leftbar.resiz{
+    width: 0%;
+   visibility: collapse;
+}
+.right_nav{
+    width: 75%;
+    border: 1px solid;
+}
+#rightbar.resiz{
+    width: 100%;
+}
+.left_nav{
+    list-style: none;
+   
+}
+.left_nav li{
+    padding: 20px;
+
+}
+.right_nav .pg{
+    width: 100%;
+    height: 900px;
+    border: 1px solid;
+    margin-left: -1px;
+}
+.pages{
+    height: 100px;
+    border: 1.5px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: -3px 3px 5px rgb(0,0,0,0.4);
+    margin: 20px 10px 20px 10px;
+
+    
+}
+#opena{
+    text-decoration: none;
+    border:1.5px solid rgba(88, 88, 88, 0.523);
+    border-radius: 5px;
+    background-color: rgba(88, 88, 88, 0.523);
+    padding: 5px;
+    position: relative;
+    right: 20px;
+    color: black;
+    font-family:Verdana;
+}
+
+.pages h1{
+     position: relative;
+     font-family: Verdana;
+     font-size: 22px;
+     top: 0%;
+     left: 30px;
+}
+#userspage{
+}
+#pagespage{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}

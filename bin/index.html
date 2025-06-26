@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu_foot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="../script/scriptt.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            
+            <div class="clg_logo">
+
+            </div>
+            <div class="clg_name">
+                <p><b class="govt">GOVERNMENT POLYTECHNIC,</b><b class="plpt">Pillaripattu</b></p>
+            </div>
+        
+            <!-- <button</button> -->
+             
+            <menu class="menuu" >
+                <li onclick="displaymenu()" id="menu_but"><i class="fa-solid fa-bars" style="color: white;"></i></li>
+                <a id="home_btn" href="index.html"><i class="fa-solid fa-house"></i></a>
+                <ul id="sidemenu">
+                    <li>
+                        <a onclick="aacad()" href="#">Academics&nbsp;<i class="fas fa-caret-down"></i></a>
+                        
+                        <div class="dropdown_acad" id="aacad" >
+                            <ul>
+                                <li>
+                                    <a href="dept.php">Branches&nbsp;<i class="fas fa-caret-right"></i></a>
+                                    <div class="dropdown_dept">
+                                        <ul>
+                                            <li><a href="#">DCE</a></li>
+                                            <li><a href="#">DCME</a></li>
+                                            <li><a href="#">DECE</a></li>
+                                            <li><a href="#">DME</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#">Curriculam</a></li>
+                                <li><a href="labsworkshop.php">Labs/Workshop</a></li>
+                                <li><a href="library.php">Library</a></li>
+                                <li><a href="faculty.html">faculty</a></li>
+                                <li><a href="#">Project ideas</a></li>
+
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="Placements.php">Placements</a></li>
+                    <li><a href="Infrastructure.php">Infrastructure</a></li>
+                    <li><a href="Events.html">Events</a></li>
+                    <li onclick="show()">
+                        <a href="#">Enrollment&nbsp;<i class="fas fa-caret-down"></i></a>
+                        <div class="dropdown_acad"  id="enrol">
+                            <ul>
+                                <li><a href="admission.php">Admissions</a></li>
+                                <li><a href="fee_structure.php">fee_structure</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                
+            </menu>
+          
+        </header>
+        <body>
+            <div class="clg_images">
+
+            </div>
+            <center><h2 style="font-family:system-ui;">WELCOME TO GOVERNMENT POLYTECHNIC,pillaripattu</h2></center>
+            <p>
+                
+            </p>
+            <h1 style="font-size:34px;
+                    font-family: Goudy old style;
+                    margin-left: 50px;">Courses Offered</h1>
+            <div class="cources">
+                <div class="cou_CE">
+                    <h3 class="cource_head">DCE</h3>
+                </div>
+                <div class="cou_CME">
+                    <h3 class="cource_head">DCME</h3>
+                </div>
+                <div class="cou_ECE">
+                    <h3 class="cource_head">DECE</h3>
+                </div>
+                <div class="cou_ME">
+                    <h3 class="cource_head">DME</h3>
+                </div>
+            </div>
+            <h1 style="font-size:34px;
+                        font-family: Goudy old style;
+                        margin-left: 50px;">Projects Done    <b style="border:4px solid rgba(241, 12, 77, 0.941);
+                                                                border-radius: 5px;
+                                                                font-size: 18px;
+                                                                align-items: center;
+                                                                padding: 5px;">Explore <i class="fa fa-long-arrow-right" aria-hidden="true"></i></b></h1>
+            <div class="Projects_done">
+
+                
+            </div>
+            <h1 style="font-size:34px;
+                        font-family: Goudy old style;
+                        margin-left: 50px;">Placements    <b style="border:4px solid rgba(241, 12, 77, 0.941);
+                                                            border-radius: 5px;
+                                                            font-size: 18px;
+                                                            align-items: center;
+                                                            padding: 5px;">Explore <i class="fa fa-long-arrow-right" aria-hidden="true"></i></b></h1>
+            <div class="place">
+                <div class="place_CE">
+                    <h3 class="place_head">DCE</h3>
+                </div>
+                <div class="place_CME">
+                    <h3 class="place_head">DCME</h3>
+                </div>
+                <div class="place_ECE">
+                    <h3 class="place_head">DECE</h3>
+                </div>
+                <div class="place_ME">
+                    <h3 class="place_head">DME</h3>
+                </div>
+            </div>
+            <h1 style="font-size:34px;
+                        font-family: Goudy old style;
+                        margin-left: 50px;">Extra-Curricular Activities    <b style="border:4px solid rgba(241, 12, 77, 0.941);
+                                                            border-radius: 5px;
+                                                            font-size: 18px;
+                                                            align-items: center;
+                                                            padding: 5px;">Explore <i class="fa fa-long-arrow-right" aria-hidden="true"></i></b></h1>
+            
+            <div class="extra_cur">
+                <div class="sports">
+                    <h3 class="extra_head">Sports</h3>
+                </div>
+                <div class="nss">
+                    <h3 class="extra_head">NSS</h3>
+                </div>
+                
+            </div>
+        </body>
+        <footer>
+            <div class="latest_links">
+
+            </div>
+            <div class="must">
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+                <ul class="social">
+                    <li><i class="fa-brands fa-youtube"></i></li>
+                    <li><i style=" font-size:24px;" class="fa">&#xf16d</i></li>
+                    <li>twitter</li>
+                    <li>facebook</li>
+                </ul>
+                
+            </div>
+
+        </footer>
+    </section>
+</body>
+</html>

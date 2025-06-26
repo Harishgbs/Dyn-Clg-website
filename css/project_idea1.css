@@ -1,0 +1,230 @@
+
+input{
+    width: 220px;
+}
+.pinnext{
+    display: none;
+}
+.posts{
+display: block;
+justify-content: center;
+}
+.postbut{
+    border: 0.5px solid rgba(92, 92, 230, 0.902);
+    box-shadow: -3px 3px 5px rgba(101, 101, 227, 0.89);
+    padding-top: 30px;
+    height: 10pc;
+    margin: 2px;
+    align-items: center;
+    
+}
+.post_odd{
+    border: 0px solid;
+    background-color: rgb(130, 123, 154);
+    height: 20pc;
+    width: 99%;
+    margin: 10px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+ 
+}
+.post_odd:hover{
+    width: 100%;
+    
+}
+.odd_img{
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+    min-width: 23%;
+    max-width: 23%;
+    min-height: 75%;
+    max-height: 75%;
+    position: relative;
+    overflow: hidden;
+    
+}
+.odd_img img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 100%;
+    max-height:100%; 
+    width: auto;
+    height: auto;
+
+    
+}
+.odd_text{
+    word-wrap:keep-all;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+    width: 64%;
+    height: 75%;
+    background-color: aliceblue;
+    overflow-y:scroll;
+}
+.odd_text::-webkit-scrollbar{
+   width: 0px;
+}
+
+.post_even{
+    background-color:  rgb(130, 123, 154);
+    border: 0px solid;
+    height: 300px;
+    width: 99%;
+    margin: 10px auto;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+ 
+
+}
+.post_even:hover{
+    
+    width: 100%;
+}
+.even_text{
+    word-wrap:break-word;
+    hyphens: auto;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+    width: 64%;
+    height: 75%;
+    background-color: aliceblue;
+    overflow-y: scroll;
+}
+.even_text::-webkit-scrollbar{
+    width: 0px;
+ }
+
+.even_img {
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+    min-width: 23%;
+    max-width: 23%;
+    max-height: 75%;
+    min-height: 75%;
+    position: relative;
+    overflow: hidden;
+
+}
+.even_img img{ 
+    /* object-fit: cover; */
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: auto;
+    height: auto;
+    max-width: 100%;
+     max-height:100%;
+}
+
+#posts.close{
+ display: none;
+}
+#newpost{
+    
+    margin-top: 30px;
+    height: 100vh;
+    width:100%;
+    
+}
+.log{
+    padding-left: 40px;
+    padding-top: 20px;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    min-height: 95%;
+    border-radius: 10px;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+}
+#title{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  1px solid;
+  
+}
+#descrip{
+    width:75%;
+    min-height: 100px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    box-shadow: -3px 3px 10px rgb(0,0,0,0.5);
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:1100px){
+    .pinnext{
+        display: block;
+    } .pinnext1{
+        display: block;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:900px) {
+    .post_even{
+        display: flex;
+        flex-direction: column;
+        height: 450px;
+    }
+    .even_img{
+        min-width:200px ;
+        max-width:200px ;
+        min-height: 200px;
+        max-height:200px ;
+        order: -1;
+    }
+    .even_text{
+        width: 80%;
+
+        order: 1;
+    }
+    .post_odd{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .odd_img{
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 200px;
+        max-height: 200px;
+        order: -1;
+    }
+    .odd_text{
+        width: 80%;
+
+        order: 1;
+    }
+    .formm{
+        display: flex;
+        flex-direction: column;
+    }
+    input {
+        border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:  1px solid;
+  
+
+    }
+
+    
+}

@@ -1,0 +1,105 @@
+/* body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    display: inline-flex;
+} */
+#sidemenuu{
+margin-top: 60px;
+}
+#sidemenuu menu  ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sidemenuu menu  ul li{
+    border: 2px solid blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.boddy{
+    width: 100%;
+    position: relative;
+    margin-top: 10px;
+    top: 20px;
+    justify-content: center;
+}
+menu{
+    padding: 0;
+}
+#sidemenuu menu li{
+    list-style: none;
+    padding: 10px 10px;
+}
+#sidemenuu menu li:hover{
+ background-color:blue;
+ color:white;
+ border-top-left-radius: 9px;
+ border-bottom-left-radius: 9px;
+ margin-left: 5px;
+ box-shadow: inset 5px 5px 15px rgb(0,0,0,.10),
+                   5px 5px 15px rgb(0,0,0,.30);
+}
+
+#more{
+    word-break: break-all;
+}
+#mo{
+    font-size: 15px;
+    cursor: pointer; 
+}
+#menuu_btn b,#menuu_bt b{
+    margin-right: -30px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+menu li{
+    display:flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.hod_cont{
+    width: 400px;
+    border: 2px solid;
+    height: 500px;
+}
+.maincontainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%;
+position: relative;
+
+}
+#a0{
+    width: 100%;
+}
+#a1,#a2,#a3,#a4,#a5,#a6,#a7,#a8,#a9,#a10,#a11,#a12,#a13{
+visibility: collapse;
+position: relative;
+width: 100%;
+
+
+}
+.aluhead{
+    position: relative;
+    margin: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px rgb(0,0,0,0.5);
+    color: white;
+    width: 100%;
+}
+
+
